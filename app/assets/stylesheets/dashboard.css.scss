@@ -1,0 +1,79 @@
+body {
+font-family: Lucida Grande;
+font-size: 8px;
+margin: 3em;
+background: #666;
+color: #fff;
+}
+
+.sprint {
+width: 100;
+display: block;
+}
+
+.box {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    vertical-align: top;
+    display: inline-block;
+    background: #999;
+    color: #fff;
+    text-align: center;
+    font-size: 8px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    overflow: hidden;
+
+    -moz-box-shadow: 5px 5px 7px rgba(33,33,33,1);
+    -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    -moz-transition: -moz-transform .20s linear;
+    -o-transition: -o-transform .15s linear;
+    -webkit-transition: -webkit-transform .15s linear;
+
+}
+
+.box:hover {
+    font-size: 5px;
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+
+    z-index: 5;
+}
+
+.inprogress {
+    background: #00bcd9;
+}
+
+.future {
+    background: #999;
+}
+
+.accepted {
+    background: #258627;
+}
+
+.done {
+    background: #258627;
+}
+.story_points {
+    font-size: 36px;
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+}
+
+.teams {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+}
+.divider {
+    background: #992;
+    width: 100%;
+}
